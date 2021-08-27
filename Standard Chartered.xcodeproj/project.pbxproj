@@ -3,18 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F860619DBBBADE24B4B7C3 /* Pods_Standard_Chartered_Standard_CharteredUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40836A0D4778A2978B9C6776 /* Pods_Standard_Chartered_Standard_CharteredUITests.framework */; };
 		3D312D2F26D6270500798BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D2E26D6270500798BCD /* AppDelegate.swift */; };
 		3D312D3126D6270500798BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D3026D6270500798BCD /* SceneDelegate.swift */; };
-		3D312D3326D6270500798BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D3226D6270500798BCD /* ViewController.swift */; };
+		3D312D3326D6270500798BCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D3226D6270500798BCD /* LoginViewController.swift */; };
 		3D312D3626D6270500798BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D3426D6270500798BCD /* Main.storyboard */; };
 		3D312D3826D6270800798BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D3726D6270800798BCD /* Assets.xcassets */; };
 		3D312D3B26D6270800798BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D3926D6270800798BCD /* LaunchScreen.storyboard */; };
 		3D312D4626D6270800798BCD /* Standard_CharteredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D4526D6270800798BCD /* Standard_CharteredTests.swift */; };
 		3D312D5126D6270800798BCD /* Standard_CharteredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D5026D6270800798BCD /* Standard_CharteredUITests.swift */; };
+		3D312D5F26D628C000798BCD /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D5E26D628C000798BCD /* UIView.swift */; };
+		3D312D6C26D62BC300798BCD /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6526D62BC300798BCD /* rsa_public_key.pem */; };
+		3D312D6D26D62BC300798BCD /* new.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6626D62BC300798BCD /* new.cer */; };
+		3D312D6E26D62BC300798BCD /* certs.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6726D62BC300798BCD /* certs.cer */; };
+		3D312D6F26D62BC300798BCD /* dr.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6826D62BC300798BCD /* dr.cer */; };
+		3D312D7026D62BC300798BCD /* prd.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6926D62BC300798BCD /* prd.cer */; };
+		3D312D7126D62BC300798BCD /* client.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6A26D62BC300798BCD /* client.cer */; };
+		3D312D7226D62BC300798BCD /* self.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D6B26D62BC300798BCD /* self.cer */; };
+		3D312D7426D62DDE00798BCD /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D7326D62DDE00798BCD /* BaseServices.swift */; };
+		3D312D7726D630A200798BCD /* LoginServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D7626D630A200798BCD /* LoginServices.swift */; };
+		3D312D7926D630C300798BCD /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D7826D630C300798BCD /* LoginRequestModel.swift */; };
+		3D312D8026D642CE00798BCD /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D7F26D642CE00798BCD /* LoginResponseModel.swift */; };
+		3D312D8226D6442300798BCD /* UIString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D8126D6442300798BCD /* UIString.swift */; };
+		3D312D8726D65D0700798BCD /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D8526D65D0700798BCD /* DashBoardViewController.swift */; };
+		3D312D8826D65D0700798BCD /* DashBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D8626D65D0700798BCD /* DashBoardViewController.xib */; };
+		3D312D8B26D663A400798BCD /* CaptureBiometricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D8926D663A400798BCD /* CaptureBiometricViewController.swift */; };
+		3D312D8C26D663A400798BCD /* CaptureBiometricViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D8A26D663A400798BCD /* CaptureBiometricViewController.xib */; };
+		3D312D9026D75C4D00798BCD /* ChangeURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D8E26D75C4D00798BCD /* ChangeURLViewController.swift */; };
+		3D312D9126D75C4D00798BCD /* ChangeURLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D8F26D75C4D00798BCD /* ChangeURLViewController.xib */; };
+		3D312D9526D760E400798BCD /* InquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D9326D760E400798BCD /* InquiryViewController.swift */; };
+		3D312D9626D760E400798BCD /* InquiryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D9426D760E400798BCD /* InquiryViewController.xib */; };
+		3D312D9A26D776C700798BCD /* BiometricResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D312D9826D776C700798BCD /* BiometricResultViewController.swift */; };
+		3D312D9B26D776C700798BCD /* BiometricResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D312D9926D776C700798BCD /* BiometricResultViewController.xib */; };
+		3DF38D5526D8A5A90016D3D5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF38D5426D8A5A90016D3D5 /* UIViewController.swift */; };
+		3DF38D5726D8B6310016D3D5 /* CaptureBiometricServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF38D5626D8B6310016D3D5 /* CaptureBiometricServices.swift */; };
+		3DF38D5926D8B66D0016D3D5 /* CaptureBiometricRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF38D5826D8B66D0016D3D5 /* CaptureBiometricRequestModel.swift */; };
+		5E5D50D9DCAAE19A056633C6 /* Pods_Standard_CharteredTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37E88A8BBA9678B3AC06932 /* Pods_Standard_CharteredTests.framework */; };
+		A169543C068DD63178263D9C /* Pods_Standard_Chartered.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B71AF190E9C454CCCC4B65 /* Pods_Standard_Chartered.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16695B53AEC51B8D698285DC /* Pods-Standard Chartered-Standard CharteredUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard Chartered-Standard CharteredUITests.debug.xcconfig"; path = "Target Support Files/Pods-Standard Chartered-Standard CharteredUITests/Pods-Standard Chartered-Standard CharteredUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D312D2B26D6270500798BCD /* Standard Chartered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Standard Chartered.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D312D2E26D6270500798BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D312D3026D6270500798BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D312D3226D6270500798BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D312D3226D6270500798BCD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D312D3526D6270500798BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D312D3726D6270800798BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D312D3A26D6270800798BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +79,42 @@
 		3D312D4C26D6270800798BCD /* Standard CharteredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standard CharteredUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D312D5026D6270800798BCD /* Standard_CharteredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standard_CharteredUITests.swift; sourceTree = "<group>"; };
 		3D312D5226D6270800798BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D312D5E26D628C000798BCD /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		3D312D6426D62B9E00798BCD /* aksa.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = aksa.cer; sourceTree = "<group>"; };
+		3D312D6526D62BC300798BCD /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		3D312D6626D62BC300798BCD /* new.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = new.cer; sourceTree = "<group>"; };
+		3D312D6726D62BC300798BCD /* certs.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = certs.cer; sourceTree = "<group>"; };
+		3D312D6826D62BC300798BCD /* dr.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = dr.cer; sourceTree = "<group>"; };
+		3D312D6926D62BC300798BCD /* prd.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prd.cer; sourceTree = "<group>"; };
+		3D312D6A26D62BC300798BCD /* client.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.cer; sourceTree = "<group>"; };
+		3D312D6B26D62BC300798BCD /* self.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = self.cer; sourceTree = "<group>"; };
+		3D312D7326D62DDE00798BCD /* BaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
+		3D312D7626D630A200798BCD /* LoginServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServices.swift; sourceTree = "<group>"; };
+		3D312D7826D630C300798BCD /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		3D312D7F26D642CE00798BCD /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		3D312D8126D6442300798BCD /* UIString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIString.swift; sourceTree = "<group>"; };
+		3D312D8326D6484600798BCD /* google.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.cer; sourceTree = "<group>"; };
+		3D312D8526D65D0700798BCD /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		3D312D8626D65D0700798BCD /* DashBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardViewController.xib; sourceTree = "<group>"; };
+		3D312D8926D663A400798BCD /* CaptureBiometricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureBiometricViewController.swift; sourceTree = "<group>"; };
+		3D312D8A26D663A400798BCD /* CaptureBiometricViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaptureBiometricViewController.xib; sourceTree = "<group>"; };
+		3D312D8E26D75C4D00798BCD /* ChangeURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeURLViewController.swift; sourceTree = "<group>"; };
+		3D312D8F26D75C4D00798BCD /* ChangeURLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeURLViewController.xib; sourceTree = "<group>"; };
+		3D312D9326D760E400798BCD /* InquiryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryViewController.swift; sourceTree = "<group>"; };
+		3D312D9426D760E400798BCD /* InquiryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InquiryViewController.xib; sourceTree = "<group>"; };
+		3D312D9826D776C700798BCD /* BiometricResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricResultViewController.swift; sourceTree = "<group>"; };
+		3D312D9926D776C700798BCD /* BiometricResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BiometricResultViewController.xib; sourceTree = "<group>"; };
+		3DF38D5426D8A5A90016D3D5 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		3DF38D5626D8B6310016D3D5 /* CaptureBiometricServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureBiometricServices.swift; sourceTree = "<group>"; };
+		3DF38D5826D8B66D0016D3D5 /* CaptureBiometricRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureBiometricRequestModel.swift; sourceTree = "<group>"; };
+		3E0AEC017115A23F31862E63 /* Pods-Standard Chartered.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard Chartered.release.xcconfig"; path = "Target Support Files/Pods-Standard Chartered/Pods-Standard Chartered.release.xcconfig"; sourceTree = "<group>"; };
+		40836A0D4778A2978B9C6776 /* Pods_Standard_Chartered_Standard_CharteredUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Standard_Chartered_Standard_CharteredUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B71AF190E9C454CCCC4B65 /* Pods_Standard_Chartered.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Standard_Chartered.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9DC48754FA109CD67D649D /* Pods-Standard Chartered.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard Chartered.debug.xcconfig"; path = "Target Support Files/Pods-Standard Chartered/Pods-Standard Chartered.debug.xcconfig"; sourceTree = "<group>"; };
+		81D85BA1DAAC13559C4AC283 /* Pods-Standard CharteredTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard CharteredTests.release.xcconfig"; path = "Target Support Files/Pods-Standard CharteredTests/Pods-Standard CharteredTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9B08F1E9730DC4BF2FC2592 /* Pods-Standard Chartered-Standard CharteredUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard Chartered-Standard CharteredUITests.release.xcconfig"; path = "Target Support Files/Pods-Standard Chartered-Standard CharteredUITests/Pods-Standard Chartered-Standard CharteredUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B37E88A8BBA9678B3AC06932 /* Pods_Standard_CharteredTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Standard_CharteredTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6A243E3BF522F466B79279 /* Pods-Standard CharteredTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Standard CharteredTests.debug.xcconfig"; path = "Target Support Files/Pods-Standard CharteredTests/Pods-Standard CharteredTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A169543C068DD63178263D9C /* Pods_Standard_Chartered.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5D50D9DCAAE19A056633C6 /* Pods_Standard_CharteredTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F860619DBBBADE24B4B7C3 /* Pods_Standard_Chartered_Standard_CharteredUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +152,8 @@
 				3D312D4426D6270800798BCD /* Standard CharteredTests */,
 				3D312D4F26D6270800798BCD /* Standard CharteredUITests */,
 				3D312D2C26D6270500798BCD /* Products */,
+				AF6A204C421EC874483BA7FC /* Pods */,
+				CCF54F511264031C20D1FF0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +170,13 @@
 		3D312D2D26D6270500798BCD /* Standard Chartered */ = {
 			isa = PBXGroup;
 			children = (
-				3D312D2E26D6270500798BCD /* AppDelegate.swift */,
-				3D312D3026D6270500798BCD /* SceneDelegate.swift */,
-				3D312D3226D6270500798BCD /* ViewController.swift */,
-				3D312D3426D6270500798BCD /* Main.storyboard */,
-				3D312D3726D6270800798BCD /* Assets.xcassets */,
-				3D312D3926D6270800798BCD /* LaunchScreen.storyboard */,
+				3D312D6326D62B5C00798BCD /* Certificates */,
+				3D312D6126D62A3400798BCD /* Common */,
+				3D312D7A26D6340900798BCD /* APIServices */,
+				3D312D6226D62A4600798BCD /* ViewControllers */,
+				3D312D8426D6506400798BCD /* Views */,
 				3D312D3C26D6270800798BCD /* Info.plist */,
+				3D312D6026D628C600798BCD /* Extension */,
 			);
 			path = "Standard Chartered";
 			sourceTree = "<group>";
@@ -128,6 +199,169 @@
 			path = "Standard CharteredUITests";
 			sourceTree = "<group>";
 		};
+		3D312D6026D628C600798BCD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D5E26D628C000798BCD /* UIView.swift */,
+				3D312D8126D6442300798BCD /* UIString.swift */,
+				3DF38D5426D8A5A90016D3D5 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3D312D6126D62A3400798BCD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D2E26D6270500798BCD /* AppDelegate.swift */,
+				3D312D3026D6270500798BCD /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D312D6226D62A4600798BCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D7526D6303100798BCD /* LoginController */,
+				3D312D7D26D640CC00798BCD /* DashBoardController */,
+				3D312D8D26D663AC00798BCD /* CaptureBiometricController */,
+				3D312D9226D75C6000798BCD /* ChangeURLController */,
+				3D312D9726D760EC00798BCD /* InquiryController */,
+				3D312D9C26D776D400798BCD /* BiometricResultController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D312D6326D62B5C00798BCD /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D8326D6484600798BCD /* google.cer */,
+				3D312D6726D62BC300798BCD /* certs.cer */,
+				3D312D6A26D62BC300798BCD /* client.cer */,
+				3D312D6826D62BC300798BCD /* dr.cer */,
+				3D312D6626D62BC300798BCD /* new.cer */,
+				3D312D6926D62BC300798BCD /* prd.cer */,
+				3D312D6526D62BC300798BCD /* rsa_public_key.pem */,
+				3D312D6B26D62BC300798BCD /* self.cer */,
+				3D312D6426D62B9E00798BCD /* aksa.cer */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
+		3D312D7526D6303100798BCD /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D3226D6270500798BCD /* LoginViewController.swift */,
+				3D312D7626D630A200798BCD /* LoginServices.swift */,
+				3D312D7E26D6429A00798BCD /* Models */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		3D312D7A26D6340900798BCD /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D7326D62DDE00798BCD /* BaseServices.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		3D312D7D26D640CC00798BCD /* DashBoardController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D8526D65D0700798BCD /* DashBoardViewController.swift */,
+				3D312D8626D65D0700798BCD /* DashBoardViewController.xib */,
+			);
+			path = DashBoardController;
+			sourceTree = "<group>";
+		};
+		3D312D7E26D6429A00798BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D7826D630C300798BCD /* LoginRequestModel.swift */,
+				3D312D7F26D642CE00798BCD /* LoginResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D312D8426D6506400798BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D3426D6270500798BCD /* Main.storyboard */,
+				3D312D3726D6270800798BCD /* Assets.xcassets */,
+				3D312D3926D6270800798BCD /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D312D8D26D663AC00798BCD /* CaptureBiometricController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D8926D663A400798BCD /* CaptureBiometricViewController.swift */,
+				3D312D8A26D663A400798BCD /* CaptureBiometricViewController.xib */,
+				3DF38D5626D8B6310016D3D5 /* CaptureBiometricServices.swift */,
+				3DF38D5A26D8B6720016D3D5 /* Models */,
+			);
+			path = CaptureBiometricController;
+			sourceTree = "<group>";
+		};
+		3D312D9226D75C6000798BCD /* ChangeURLController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D8E26D75C4D00798BCD /* ChangeURLViewController.swift */,
+				3D312D8F26D75C4D00798BCD /* ChangeURLViewController.xib */,
+			);
+			path = ChangeURLController;
+			sourceTree = "<group>";
+		};
+		3D312D9726D760EC00798BCD /* InquiryController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D9326D760E400798BCD /* InquiryViewController.swift */,
+				3D312D9426D760E400798BCD /* InquiryViewController.xib */,
+			);
+			path = InquiryController;
+			sourceTree = "<group>";
+		};
+		3D312D9C26D776D400798BCD /* BiometricResultController */ = {
+			isa = PBXGroup;
+			children = (
+				3D312D9826D776C700798BCD /* BiometricResultViewController.swift */,
+				3D312D9926D776C700798BCD /* BiometricResultViewController.xib */,
+			);
+			path = BiometricResultController;
+			sourceTree = "<group>";
+		};
+		3DF38D5A26D8B6720016D3D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DF38D5826D8B66D0016D3D5 /* CaptureBiometricRequestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF6A204C421EC874483BA7FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E9DC48754FA109CD67D649D /* Pods-Standard Chartered.debug.xcconfig */,
+				3E0AEC017115A23F31862E63 /* Pods-Standard Chartered.release.xcconfig */,
+				16695B53AEC51B8D698285DC /* Pods-Standard Chartered-Standard CharteredUITests.debug.xcconfig */,
+				A9B08F1E9730DC4BF2FC2592 /* Pods-Standard Chartered-Standard CharteredUITests.release.xcconfig */,
+				FA6A243E3BF522F466B79279 /* Pods-Standard CharteredTests.debug.xcconfig */,
+				81D85BA1DAAC13559C4AC283 /* Pods-Standard CharteredTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCF54F511264031C20D1FF0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40B71AF190E9C454CCCC4B65 /* Pods_Standard_Chartered.framework */,
+				40836A0D4778A2978B9C6776 /* Pods_Standard_Chartered_Standard_CharteredUITests.framework */,
+				B37E88A8BBA9678B3AC06932 /* Pods_Standard_CharteredTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D312D5526D6270800798BCD /* Build configuration list for PBXNativeTarget "Standard Chartered" */;
 			buildPhases = (
+				D53FA46F019C464A3469E2EC /* [CP] Check Pods Manifest.lock */,
 				3D312D2726D6270500798BCD /* Sources */,
 				3D312D2826D6270500798BCD /* Frameworks */,
 				3D312D2926D6270500798BCD /* Resources */,
+				38C3D5C03B7161998D97D3C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D312D5826D6270800798BCD /* Build configuration list for PBXNativeTarget "Standard CharteredTests" */;
 			buildPhases = (
+				38DA888A6F44B59FE1084BAD /* [CP] Check Pods Manifest.lock */,
 				3D312D3D26D6270800798BCD /* Sources */,
 				3D312D3E26D6270800798BCD /* Frameworks */,
 				3D312D3F26D6270800798BCD /* Resources */,
@@ -170,9 +407,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D312D5B26D6270800798BCD /* Build configuration list for PBXNativeTarget "Standard CharteredUITests" */;
 			buildPhases = (
+				6A02E962C0322CFB5374A8F2 /* [CP] Check Pods Manifest.lock */,
 				3D312D4826D6270800798BCD /* Sources */,
 				3D312D4926D6270800798BCD /* Frameworks */,
 				3D312D4A26D6270800798BCD /* Resources */,
+				3681BD0AAFFA246DD069869B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +470,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D312D8826D65D0700798BCD /* DashBoardViewController.xib in Resources */,
+				3D312D6F26D62BC300798BCD /* dr.cer in Resources */,
+				3D312D9B26D776C700798BCD /* BiometricResultViewController.xib in Resources */,
+				3D312D6E26D62BC300798BCD /* certs.cer in Resources */,
 				3D312D3B26D6270800798BCD /* LaunchScreen.storyboard in Resources */,
+				3D312D8C26D663A400798BCD /* CaptureBiometricViewController.xib in Resources */,
+				3D312D9126D75C4D00798BCD /* ChangeURLViewController.xib in Resources */,
+				3D312D9626D760E400798BCD /* InquiryViewController.xib in Resources */,
 				3D312D3826D6270800798BCD /* Assets.xcassets in Resources */,
+				3D312D6C26D62BC300798BCD /* rsa_public_key.pem in Resources */,
+				3D312D7026D62BC300798BCD /* prd.cer in Resources */,
 				3D312D3626D6270500798BCD /* Main.storyboard in Resources */,
+				3D312D7126D62BC300798BCD /* client.cer in Resources */,
+				3D312D7226D62BC300798BCD /* self.cer in Resources */,
+				3D312D6D26D62BC300798BCD /* new.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +504,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3681BD0AAFFA246DD069869B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered-Standard CharteredUITests/Pods-Standard Chartered-Standard CharteredUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered-Standard CharteredUITests/Pods-Standard Chartered-Standard CharteredUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered-Standard CharteredUITests/Pods-Standard Chartered-Standard CharteredUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C3D5C03B7161998D97D3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered/Pods-Standard Chartered-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered/Pods-Standard Chartered-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Standard Chartered/Pods-Standard Chartered-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DA888A6F44B59FE1084BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Standard CharteredTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A02E962C0322CFB5374A8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Standard Chartered-Standard CharteredUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53FA46F019C464A3469E2EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Standard Chartered-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D312D2726D6270500798BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D312D3326D6270500798BCD /* ViewController.swift in Sources */,
+				3D312D9526D760E400798BCD /* InquiryViewController.swift in Sources */,
+				3D312D9026D75C4D00798BCD /* ChangeURLViewController.swift in Sources */,
+				3D312D8226D6442300798BCD /* UIString.swift in Sources */,
+				3D312D5F26D628C000798BCD /* UIView.swift in Sources */,
+				3D312D7926D630C300798BCD /* LoginRequestModel.swift in Sources */,
+				3D312D7426D62DDE00798BCD /* BaseServices.swift in Sources */,
+				3D312D3326D6270500798BCD /* LoginViewController.swift in Sources */,
+				3D312D8726D65D0700798BCD /* DashBoardViewController.swift in Sources */,
+				3D312D9A26D776C700798BCD /* BiometricResultViewController.swift in Sources */,
 				3D312D2F26D6270500798BCD /* AppDelegate.swift in Sources */,
 				3D312D3126D6270500798BCD /* SceneDelegate.swift in Sources */,
+				3D312D8026D642CE00798BCD /* LoginResponseModel.swift in Sources */,
+				3D312D8B26D663A400798BCD /* CaptureBiometricViewController.swift in Sources */,
+				3DF38D5926D8B66D0016D3D5 /* CaptureBiometricRequestModel.swift in Sources */,
+				3D312D7726D630A200798BCD /* LoginServices.swift in Sources */,
+				3DF38D5526D8A5A90016D3D5 /* UIViewController.swift in Sources */,
+				3DF38D5726D8B6310016D3D5 /* CaptureBiometricServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +801,7 @@
 		};
 		3D312D5626D6270800798BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9DC48754FA109CD67D649D /* Pods-Standard Chartered.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,12 +814,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Aksa-SDS.Standard-Chartered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		3D312D5726D6270800798BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0AEC017115A23F31862E63 /* Pods-Standard Chartered.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,12 +833,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Aksa-SDS.Standard-Chartered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		3D312D5926D6270800798BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6A243E3BF522F466B79279 /* Pods-Standard CharteredTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +861,7 @@
 		};
 		3D312D5A26D6270800798BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D85BA1DAAC13559C4AC283 /* Pods-Standard CharteredTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +883,7 @@
 		};
 		3D312D5C26D6270800798BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16695B53AEC51B8D698285DC /* Pods-Standard Chartered-Standard CharteredUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +903,7 @@
 		};
 		3D312D5D26D6270800798BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B08F1E9730DC4BF2FC2592 /* Pods-Standard Chartered-Standard CharteredUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
